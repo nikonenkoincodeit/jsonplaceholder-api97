@@ -2,4 +2,9 @@ function addMarkup(ref, markup) {
   ref.innerHTML = markup;
 }
 
-export { addMarkup };
+function getParam(key, paramsString) {
+  const searchParams = new URLSearchParams(paramsString);
+  return searchParams.get(key);
+}
+
+export { addMarkup, getParam };
