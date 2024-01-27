@@ -1,2 +1,3 @@
 const tbody = document.querySelector(".js-tbody");
-export { tbody };
+// const jsTrEl = document.querySelector(".js-tr")
+export { tbody};
